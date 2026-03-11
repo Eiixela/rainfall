@@ -1,4 +1,11 @@
-So we have a binary file, that behave like this :
+So we have a binary file, which permissions are the following :
+```
+-rwsr-x---+ 1 level1 users  747441 Mar  6  2016 level0
+```
+So the binary is granted level1 permission during execution
+
+The binary behaves like this :
+
 ```
 level0@RainFall:~$ ./level0 
 Segmentation fault (core dumped)
